@@ -1,0 +1,74 @@
+body {
+  background: #cecece;
+  margin: 0;
+  font: 62.5% Verdana, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 10px;
+  font-size: 1.6em;
+  text-align: center;
+}
+h1 {
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+.kana-container {
+  height: 40px;
+  margin-bottom: 10px;
+}
+form {
+  margin: 0 0 10px;
+}
+.answer-input {
+  background: #fff;
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid #888;
+  padding: 5px 10px;
+  font: 1.2em Verdana, Arial, sans-serif;
+  text-align: center;
+}
+.answer-response {
+  height: 20px;
+  margin-bottom: 20px;
+}
+.correct {
+  color: green;
+}
+.wrong {
+  color: red;
+}
+.wrong-list {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: 0;
+  width: 250px;
+}
+.wrong-list li {
+  padding: 2px 5px;
+  line-height: 40px;
+  border-bottom: 1px solid #cecece;
+  overflow: hidden;
+  text-align: center;
+}
+.wrong-list .kana {
+  width: 80px;
+  float: left;
+}
+.wrong-list .answer {
+  float: left;
+  width: 80px;
+}
+.wrong-list .guest {
+  float: left;
+  width: 80px;
+}
